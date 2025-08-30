@@ -7,10 +7,15 @@ Feature: Favorite Services screen (All Services / Favorites)
 - BLoC pattern for state management.
 - Search support (with pagination).
 
+## 🎥 Demo
+
+<video src="Screenshots/DemoVideo.mp4" width="300" controls></video>
+
+
 ## 🖼 Screenshots
 
-| Expense(Category Wise) | Expense(Hourly) | Add Expense | Expense Report |
-|------------------------|-----------------|-------------|----------------|
+| All Services | Favourites | Search |
+|--------------|------------|--------|
 <table>
   <tr>
     <td><img src="Screenshots/AllServices.png" alt="All Services" width="250"/></td>
