@@ -7,6 +7,20 @@ Feature: Favorite Services screen (All Services / Favorites)
 - BLoC pattern for state management.
 - Search support (with pagination).
 
+## 🖼 Screenshots
+
+| Expense(Category Wise) | Expense(Hourly) | Add Expense | Expense Report |
+|------------------------|-----------------|-------------|----------------|
+<table>
+  <tr>
+    <td><img src="Screenshots/AllServices.png" alt="All Services" width="250"/></td>
+    <td><img src="Screenshots/Favouites.png" alt="Favourites" width="250"/></td>
+    <td><img src="Screenshots/Search.png" alt="Search" width="250"/></td>
+  </tr>
+</table>
+
+---
+
 ## Run
 1. flutter pub get
 2. flutter run
