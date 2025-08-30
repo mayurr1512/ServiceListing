@@ -9,7 +9,8 @@ Feature: Favorite Services screen (All Services / Favorites)
 
 ## 🎥 Demo
 
-<video src="Screenshots/DemoVideo.mp4" width="300" controls></video>
+https://github.com/user-attachments/assets/9491c9bf-5e59-491a-94c7-8a32ba3b5209
+
 
 
 ## 🖼 Screenshots
