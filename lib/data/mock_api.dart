@@ -17,7 +17,6 @@ class MockApi {
     _all = list.map((e) => Service.fromJson(e as Map<String, dynamic>)).toList();
   }
 
-  /// Simulates a paginated GET /services?page=X
   Future<List<Service>> fetchServices({int page = 1}) async {
     await _loadAll();
     // simulate network latency
@@ -28,7 +27,6 @@ class MockApi {
     return _all!.sublist(start, end);
   }
 
-  /// Simulate search
   Future<List<Service>> search(String q, {int page = 1}) async {
     await _loadAll();
     await Future.delayed(const Duration(milliseconds: 400));

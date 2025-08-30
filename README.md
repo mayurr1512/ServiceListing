@@ -1,16 +1,24 @@
-# service_app
+# Favorite Services (Offline Mock API)
 
-A new Flutter project.
+Feature: Favorite Services screen (All Services / Favorites)
+- Loads services from `assets/services.json` (mock API).
+- Pagination & lazy loading (10 items per page).
+- Favorite/unfavorite persisted with Hive.
+- BLoC pattern for state management.
+- Search support (with pagination).
 
-## Getting Started
+## Run
+1. flutter pub get
+2. flutter run
 
-This project is a starting point for a Flutter application.
+## Notes
+- `assets/services.json` contains 50 sample services.
+- Hive stores favorite IDs in a local box named `favorites`.
 
-A few resources to get you started if this is your first Flutter project:
+## Tests
+- Unit/widget tests: `flutter test`
+- Integration tests: `flutter test integration_test`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## What to extend
+- Add more widget tests & integration tests (persistence across restart).
+- Replace MockApi with a real remote API by swapping `MockApi` for a network `ApiService`.
