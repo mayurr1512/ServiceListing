@@ -12,7 +12,6 @@ Feature: Favorite Services screen (All Services / Favorites)
 https://github.com/user-attachments/assets/9491c9bf-5e59-491a-94c7-8a32ba3b5209
 
 
-
 ## 🖼 Screenshots
 
 | All Services | Favourites | Search |
