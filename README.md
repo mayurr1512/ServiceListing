@@ -36,9 +36,19 @@ https://github.com/user-attachments/assets/9491c9bf-5e59-491a-94c7-8a32ba3b5209
 - Hive stores favorite IDs in a local box named `favorites`.
 
 ## Tests
-- Unit/widget tests: `flutter test`
-- Integration tests: `flutter test integration_test`
+### Unit & Widget Tests
+- Service Item Widget Tests: `test/widget_test/service_item_test.dart`
+- Search Functionality Tests: `test/widget_test/search_test.dart`
 
-## What to extend
-- Add more widget tests & integration tests (persistence across restart).
-- Replace MockApi with a real remote API by swapping `MockApi` for a network `ApiService`.
+- Run widget tests:
+```bash
+flutter test test/widget_test/
+```
+
+### Integration Tests
+- Favorite Persistence Tests: `test/integration_test/favorite_persistence_test.dart`
+
+- Run integration tests:
+```bash
+flutter test test/integration_test/
+```
